@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { AnimationProvider } from "@/components";
+import Header from "@/components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,15 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} flex min-h-screen flex-col`}>
+      <body className={`${inter.className} dark flex min-h-screen flex-col`}>
         <AnimationProvider>
-          <header className="flex justify-between items-center px-2 sticky top-0 bg-white z-10 border">
-            <h1 className="text-2xl">Menu</h1>
-            <div className="flex gap-2 text-sm">
-              <p>Make your reservation:</p>
-              <p className="font-semibold">(415)&nbsp;555&#8209;0132</p>
-            </div>
-          </header>
+          <Header />
           {children}
         </AnimationProvider>
       </body>
