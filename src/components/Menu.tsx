@@ -4,16 +4,16 @@ import menu from "@/menu-blowfish.json";
 
 export default function Menu() {
   return (
-    <section>
-      <div className="flex justify-center items-center p-12 bg-green-900">
-        <h2 className="font-bold text-5xl text-white">MENU</h2>
+    <section className="dark:bg-green-900 dark:text-white">
+      <div className="flex items-center justify-center bg-green-900 p-12">
+        <h2 className="text-4xl font-bold text-white">MENU</h2>
       </div>
-      <ul className="grid md:grid-cols-2 lg:grid-cols-3 gap-24 mt-24 lg:px-8">
+      <ul className="mt-24 grid gap-24 md:grid-cols-2 lg:px-8 xl:grid-cols-3">
         {menu.map((category) => (
           <li key={category.categoryId}>
             <h3
               data-aos={"fade-right"}
-              className="text-center m-4 text-green-700 uppercase text-lg font-semibold"
+              className="m-4 text-center text-lg font-semibold uppercase text-green-700 dark:text-white"
             >
               {category.title}
             </h3>
@@ -21,7 +21,7 @@ export default function Menu() {
               {category.listItems.map((item) => (
                 <li
                   data-aos={"fade-up"}
-                  className="flex m-4 my-8 justify-between"
+                  className="m-4 my-8 flex justify-between gap-1"
                   key={item.name}
                 >
                   <div>

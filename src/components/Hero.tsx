@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="bg-green-700 text-white p-20 flex justify-center items-center flex-col">
-      <h2 data-aos={"fade-right"} className="font-bold text-4xl">
+    <section className="flex flex-col items-center justify-center bg-green-700 p-20 text-white">
+      <h2 data-aos={"fade-right"} className="text-4xl font-bold">
         SUSHI BAR
       </h2>
       <Image
@@ -14,7 +14,7 @@ export default function Hero() {
         height={200}
         alt=""
       />
-      <p data-aos={"fade-left"} className="max-w-4xl text-center mt-4">
+      <p data-aos={"fade-left"} className="mt-4 max-w-4xl text-center">
         Add text to make your restarurant special. Simple text Add text to make
         your restarurant special. Simple textAdd text to make your restarurant
         special. Simple text
