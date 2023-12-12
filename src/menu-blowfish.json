@@ -1,0 +1,546 @@
+[
+  {
+    "title": "Cold Sake",
+    "categoryId": 1,
+    "listItems": [
+      {
+        "name": "Suijin “Junmai\"",
+        "desc": "Iwate rice, and sharpness befitting medium dry sake of a high caliber. 300ml",
+        "price": "$15.5"
+      },
+      {
+        "name": "Sayuri “Nigori”",
+        "desc": "Creamy sake with a deliciously smooth finish. 300ml.",
+        "price": "$15.5"
+      },
+      {
+        "name": "Manotsuru Crane “Junmai”",
+        "desc": "Light and soft with a clean finish. 300ml",
+        "price": "$17.5"
+      },
+      {
+        "name": "Sho-une “Junmai Dai Ginjo”",
+        "desc": "Very smooth sake with fruity aroma. 300ml",
+        "price": "$17.5"
+      },
+      {
+        "name": "Hakushika Goka “Junmai Dai Ginjo”",
+        "desc": "Great fragrance of fruity flavor, delicate sweetness, rolls down smoothly with a gentle body. 300ml",
+        "price": "$17.5"
+      },
+      {
+        "name": "Manotsuru Crane “Karakuchi”",
+        "desc": "Dry and soft with a clean finish. 300ml",
+        "price": "$17.5"
+      }
+    ]
+  },
+  {
+    "title": "Hot Sake",
+    "categoryId": 2,
+    "listItems": [
+      {
+        "name": "Ozeki Sake “Junmai”",
+        "desc": "A fresh, well balanced taste. Served in a carafe.",
+        "price": "$5"
+      }
+    ]
+  },
+  {
+    "title": "White Wine",
+    "categoryId": 3,
+    "listItems": [
+      {
+        "name": "Pratsch Organic",
+        "desc": "(Gruner Veltiliner, Austria 1000ml)",
+        "price": "$6/$29"
+      },
+      {
+        "name": "Sea Pearl",
+        "desc": "(Sauvignon Blanc, New Zealand)",
+        "price": "$6/$23"
+      },
+      { "name": "Laroque Chardonay", "desc": "", "price": "$6/$23" }
+    ]
+  },
+  {
+    "title": "Red Wine",
+    "categoryId": 4,
+    "listItems": [
+      {
+        "name": "De Loach",
+        "desc": "Pinot Noir, California.",
+        "price": "$6/$23"
+      },
+      {
+        "name": "Lyeth",
+        "desc": "Cabernet Sauvignon, California.",
+        "price": "$6/$23"
+      }
+    ]
+  },
+  {
+    "title": "Sparkling Wine",
+    "categoryId": 5,
+    "listItems": [
+      {
+        "name": "Giancarlo Prosecco",
+        "desc": "Italy, 775ml/bottle",
+        "price": "$19"
+      },
+      { "name": "Jean Louie Sparkling Rose", "desc": "", "price": "$19" },
+      { "name": "La Luca Procesco", "desc": "", "price": "$7" }
+    ]
+  },
+  {
+    "title": "Beer",
+    "categoryId": 6,
+    "listItems": [
+      { "name": "Sapporo (lager) 5% abv", "desc": "", "price": "$4.5" },
+      {
+        "name": "Asahi Super Dry (lager) 5.2% abv",
+        "desc": "",
+        "price": "$4.5"
+      },
+      {
+        "name": "Voodoo Ranger (Belgium IPA)    7% abv",
+        "desc": "",
+        "price": "$5"
+      },
+      {
+        "name": "White Claw (Hard Seltzer) 5% abv",
+        "desc": "",
+        "price": "$4.5"
+      }
+    ]
+  },
+  {
+    "title": "Salad & Soup",
+    "categoryId": 7,
+    "listItems": [
+      { "name": "Seaweed Salad", "desc": "", "price": "$5" },
+      { "name": "Cucumber Salad", "desc": "", "price": "$4" },
+      { "name": "Creamy Crab Salad", "desc": "", "price": "$8" },
+      { "name": "Seasoned Calamari Salad", "desc": "", "price": "$8" },
+      { "name": "White Miso Soup", "desc": "", "price": "$2.5" }
+    ]
+  },
+  {
+    "title": "Beverages",
+    "categoryId": 8,
+    "listItems": [
+      {
+        "name": "Soft Drink",
+        "desc": "coke, diet coke, sprite",
+        "price": "$2.5"
+      },
+      { "name": "Sparkling Water", "desc": "", "price": "$2.5" },
+      { "name": "Iced Tea", "desc": "", "price": "$3" },
+      { "name": "Hot Green Tea", "desc": "", "price": "$1.5" }
+    ]
+  },
+  {
+    "title": "Appetizers",
+    "categoryId": 9,
+    "listItems": [
+      {
+        "name": "Edamame",
+        "desc": "steamed soybeans topped with sea salt and togarashi",
+        "price": "$5"
+      },
+      {
+        "name": "Crispy BBQ Spicy Tuna",
+        "desc": "bbq spicy tuna on crispy rice topped with sweet potato crunch and special sauces",
+        "price": "$9"
+      },
+      {
+        "name": "Stuffed Salmon",
+        "desc": "sushi scallops dynamite wrapped in lightly seared salmon topped with green tea mayo, lime juice, and sweet soy sauce",
+        "price": "$10.5"
+      },
+      {
+        "name": "Tiger Shrimp Tempura",
+        "desc": "red cabbage slaw, caramelized walnuts, honey aioli topped with scallions and toasted sesame seed",
+        "price": "$10.5"
+      },
+      {
+        "name": "Hamachi Jalapeno",
+        "desc": "lightly seared thinly sliced yellowtail with chef’s signature jalapeño sauce",
+        "price": "$9.5"
+      },
+      {
+        "name": "Snowball",
+        "desc": "lightly seared super white tuna topped with grape seed oil, green tea mayo, scallions and sweet soy sauce",
+        "price": "$9.5"
+      },
+      {
+        "name": "Chips & Fish",
+        "desc": "freshly made guacamole, ponzu sauce, lime zest, with chips choice of: fresh tuna, fresh salmon, yellowtail",
+        "price": "$9.5"
+      },
+      {
+        "name": "Calamari",
+        "desc": "tempura calamari tossed with sea salt, togarashi and spicy mayo",
+        "price": "$9.5"
+      },
+      {
+        "name": "Pork Buns",
+        "desc": "Holland pork belly with sunomono salad‏ in steamed buns",
+        "price": "$9.5"
+      },
+      {
+        "name": "Kara-age Chicken",
+        "desc": "Soy marinated deep fried chicken with sweet chili sauce on pineapple salad",
+        "price": "$9.5"
+      },
+      {
+        "name": "Stuffed Avo",
+        "desc": "spicy tuna on deep fried avocado topped with sweet potato crunch and special sauces",
+        "price": "$9.5"
+      },
+      {
+        "name": "Gyoza",
+        "desc": "pan-fried beef dumplings topped with sweet & sour sauce, and scallions",
+        "price": "$6"
+      },
+      {
+        "name": "Shumai",
+        "desc": "steamed dumplings topped with sweet & sour sauce, and scallions                                                                                                             choice of: shrimp, edamame",
+        "price": "$5.5"
+      },
+      {
+        "name": "Shishito Peppers",
+        "desc": "sweet peppers topped with sesame seeds, teriyaki sauce, and toasted bonito flakes.",
+        "price": "$8.5"
+      }
+    ]
+  },
+  {
+    "title": "Signature Ramen",
+    "categoryId": 10,
+    "listItems": [
+      {
+        "name": "Black Garlic Tonkotsu Ramen",
+        "desc": "The original‏ silky “Tonkotsu” (pork) soup noodle topped with Holland pork chashu, kikurage mushrooms, nitamago, scallions, corn, spinach, roasted seaweed, sesame and black garlic oil.",
+        "price": "$14.5"
+      },
+      {
+        "name": "Classic Ramen",
+        "desc": "The original silky “Tonkotsu” (pork) soup noodle topped with Holland pork chashu, kikurage mushrooms, nitamago, scallions, spinach, corn and sesame oil.",
+        "price": "$14"
+      },
+      {
+        "name": "Spicy Roasted Garlic Miso Ramen",
+        "desc": "The original Miso (soybean paste) soup noodle topped with Holland pork chashu, kikurage mushrooms, nitamago, scallions, spinach, corn, chili pepper, sesame oil, garlic chips, and roasted garlic.",
+        "price": "$14.5"
+      },
+      {
+        "name": "Tofu Shoyu Ramen (Vegetarian)",
+        "desc": "Soy sauce and vegetable based soup noodle, topped with roasted seaweed, scallions, fried tofu, corn, spinach, cabbage, and kikurage mushrooms",
+        "price": "$13.5"
+      },
+      {
+        "name": "Beef Brisket Ramen ( spicy)",
+        "desc": "The original Miso (soybean paste) soup noodle topped with soy marinated beef brisket, kikurage mushrooms, nitamago, scallions, spinach, corn, chili pepper, sesame oil, garlic chips, and shallots.",
+        "price": "$14.5"
+      }
+    ]
+  },
+  {
+    "title": "Signature Poke Bowl",
+    "categoryId": 11,
+    "listItems": [
+      {
+        "name": "Flaming Tuna Bowl",
+        "desc": "Ahi tuna, white tuna, spicy tuna, edamame, avocado, scallions, jalapeno sauce, shitake, mango, pickled cucumber, sesame seeds topped with creamy yuzu mayo, spicy sauce, wasabi ponzu, and wasabi tobiko",
+        "price": "$15"
+      },
+      {
+        "name": "Salmon Sunrise Bowl",
+        "desc": "Fresh salmon, smoked salmon, edamame, avocado, scallions, shitake, mango, pickled cucumber, sesame seeds topped with shallots, creamy yuzu mayo, sweet soy sauce, wasabi ponzu, shallots, and tobiko",
+        "price": "$15"
+      },
+      {
+        "name": "Dynamite Bowl",
+        "desc": "Shrimp tempura, snow crab mix, squid salad, edamame, avocado, scallions, shitake, mango, pickled cucumber, sesame seeds topped with creamy yuzu mayo, sweet soy sauce, beet crunch, and tobiko",
+        "price": "$15"
+      },
+      {
+        "name": "Veggie Delight Bowl",
+        "desc": "Fried tofu, asparagus tempura, edamame, avocado, scallions, shitake, mango, pickled cucumber, seaweed salad, raisin, sesame seeds topped with sweet soy sauce, wasabi ponzu, green tea mayo, and beet crunch",
+        "price": "$14"
+      }
+    ]
+  },
+  {
+    "title": "Nigiri and Sashimi",
+    "categoryId": 12,
+    "listItems": [
+      { "name": "MAGURO", "desc": "[yellowfin tuna]", "price": "$4.5/$8" },
+      { "name": "BONITO", "desc": "[escolar]", "price": "$3.5/$6" },
+      { "name": "HAMACHI", "desc": "[yellowtail]", "price": "$4/$7" },
+      { "name": "NAMASAKE", "desc": "[scottish salmon]", "price": "$3.5/$6" },
+      { "name": "SAKE", "desc": "[ smoked salmon]", "price": "$3.5/$7" },
+      { "name": "IKURA", "desc": "[salmon roe]", "price": "$4/$7" },
+      { "name": "HOTATE", "desc": "[scallop]", "price": "$4/$7" },
+      { "name": "UNAGI", "desc": "[eel]", "price": "$3.5/$6" },
+      {
+        "name": "SHIMA SABA",
+        "desc": "[marinated mackerel]",
+        "price": "$3/$5"
+      },
+      { "name": "TOBIKO", "desc": "[flying fish‏ roe]", "price": "$3.5/$6" },
+      { "name": "EBI", "desc": "[shrimp]", "price": "$2.5/$4" },
+      { "name": "BOTAN EBI", "desc": "[sweet shrimp]‏", "price": "$4.5/$8" },
+      { "name": "TAKO", "desc": "[octopus]", "price": "$3.5/$6" },
+      { "name": "TAMAGO", "desc": "[seasoned egg]", "price": "$3/$6" }
+    ]
+  },
+  {
+    "title": "Sushi Bar Combinations",
+    "categoryId": 13,
+    "listItems": [
+      {
+        "name": "Sushi Combo",
+        "desc": "Chef’s selection of 4 pieces of Nigiri with California Roll",
+        "price": "$18"
+      },
+      {
+        "name": "Sushi Deluxe",
+        "desc": "Chef’s selection of 6 pieces of Nigiri with Spicy Tuna Roll",
+        "price": "$21"
+      },
+      {
+        "name": "Sashimi Deluxe",
+        "desc": "Chef’s selection of 12 pieces of Sashimi",
+        "price": "$26"
+      },
+      {
+        "name": "Makimono",
+        "desc": "California, Spicy Tuna, and Shrimp Tempura Roll",
+        "price": "$20"
+      },
+      {
+        "name": "Spicymono",
+        "desc": "Spicy Tuna, Spicy Salmon, and Spicy Shrimp Roll",
+        "price": "$20"
+      }
+    ]
+  },
+  {
+    "title": "Signature Rolls‏",
+    "categoryId": 14,
+    "listItems": [
+      {
+        "name": "Fuji",
+        "desc": "spicy tuna, fresh salmon, white tuna, cucumber topped with signature jalapeño sauce",
+        "price": "$15"
+      },
+      {
+        "name": "Tsunami",
+        "desc": "fresh tuna, hamachi, salmon, white tuna, eel, shrimp, octopus, cucumber, avocado topped with tobiko,and chili oil",
+        "price": "$15.5"
+      },
+      {
+        "name": "Crunchy Dynamite",
+        "desc": "deep fried shrimp tempura roll, crab mix, cream cheese, avocado, cucumber, red tobiko, sweet soy sauce, and ponzu sauce",
+        "price": "$14.5"
+      },
+      {
+        "name": "Aloha",
+        "desc": "tuna, yellowtail, salmon, crab, cilantro, jalapeño, avocado wrapped in cucumber topped with ponzu sauce",
+        "price": "$15"
+      },
+      {
+        "name": "Solar",
+        "desc": "soy paper, asparagus tempura, spicy tuna, steam shrimp, avocado, jalapeno, cilantro, spicy citrus mayo, and black tobiko",
+        "price": "$14.5"
+      },
+      {
+        "name": "Smokey Eye",
+        "desc": "shrimp tempura, cream cheese, avocado topped with black tobiko and lightly seared smoked salmon, spicy mayo, sweet soy sauce",
+        "price": "$14.5"
+      },
+      {
+        "name": "Tuna Lobster",
+        "desc": "Fresh tuna, lobster mix, avocado, cucumber, mango topped with wasabi mayo and lime zest",
+        "price": "$15.5"
+      },
+      {
+        "name": "Fugu",
+        "desc": "soy paper, fresh water eel, soft shell crab, avocado, cucumber topped with beet crunch, spicy citrus mayo and sweet soy sauce",
+        "price": "$15.5"
+      },
+      {
+        "name": "Creamy Scallop",
+        "desc": "steamed shrimp, oven cooked scallop dynamite, avocado, cucumber topped with spicy mayo, chili sauce, and ponzu sauce",
+        "price": "$14.5"
+      },
+      {
+        "name": "Firecracker",
+        "desc": "deep fried spicy tuna, cream cheese, avocado topped with spicy mayo, chilli and sweet soy sauce",
+        "price": "$13"
+      },
+      {
+        "name": "Pressed Sushi",
+        "desc": "spicy tuna, snow crab mix, wasabi and red tobiko, avocado topped with spicy citrus mayo, and sweet soy sauce",
+        "price": "$15"
+      },
+      {
+        "name": "Sakura",
+        "desc": "crab mix, jalapeno, avocado topped with seared super white tuna, white truffle oil, wasabi mayo, sweet soy sauce, and green onions",
+        "price": "$15"
+      },
+      {
+        "name": "Moonrise",
+        "desc": "soy paper, crab mix, fresh salmon, avocado, cucumber, cream cheese topped with wasabi mayo, and lime juice",
+        "price": "$15"
+      },
+      {
+        "name": "Flaming Hamachi",
+        "desc": "spicy tuna, cucumber, fresh yellowtail topped with signature jalapeño sauce.",
+        "price": "$14.5"
+      },
+      {
+        "name": "Unagi Tamago",
+        "desc": "BBQ eel, spicy tuna, marinated Japanese egg, cucumber topped with sweet soy sauce, and spicy mayo",
+        "price": "$14.5"
+      }
+    ]
+  },
+  {
+    "title": "Classic Rolls",
+    "categoryId": 15,
+    "listItems": [
+      {
+        "name": "California",
+        "desc": "crab, avocado,‏ cucumber",
+        "price": "$6.5"
+      },
+      {
+        "name": "Philadelphia",
+        "desc": "smoked salmon, avocado, cream cheese",
+        "price": "$7.5"
+      },
+      { "name": "Tuna & Avo", "desc": "fresh tuna, avocado", "price": "$8" },
+      {
+        "name": "Salmon & Avo",
+        "desc": "fresh salmon, avocado",
+        "price": "$7.5"
+      },
+      {
+        "name": "Shrimp Tempura",
+        "desc": "avocado, cucumber, lettuce, and sweet soy sauce and citrus mayo",
+        "price": "$7.5"
+      },
+      {
+        "name": "Spider",
+        "desc": "soft shell crab, avocado, cucumber, and sweet soy sauce and citrus mayo",
+        "price": "$9"
+      },
+      {
+        "name": "Spicy Tuna",
+        "desc": "tuna, cucumber, spicy sauce",
+        "price": "$8"
+      },
+      {
+        "name": "Spicy Tuna Crunch",
+        "desc": "tuna, cucumber, spicy sauce",
+        "price": "$8.5"
+      },
+      {
+        "name": "Spicy Salmon",
+        "desc": "salmon, avocado, cucumber, spicy sauce",
+        "price": "$8"
+      },
+      {
+        "name": "Spicy Shrimp",
+        "desc": "steamed shrimp, avocado, cucumber, spicy sauces",
+        "price": "$7"
+      },
+      {
+        "name": "Spicy Yellowtail",
+        "desc": "yellowtail, avocado,‏ cucumber, jalapeno, cilantro, spicy citrus sauces",
+        "price": "$8.5"
+      },
+      {
+        "name": "Unagi & Cucumber",
+        "desc": "bbq eel, cucumber, sweet soy sauce",
+        "price": "$8"
+      },
+      {
+        "name": "Dragon",
+        "desc": "shrimp tempura, bbq eel, avocado, cucumber",
+        "price": "$13.5"
+      },
+      {
+        "name": "Fire Dragon",
+        "desc": "spicy tuna, bbq eel, avocado, cucumber",
+        "price": "$14"
+      },
+      {
+        "name": "Red Dragon",
+        "desc": "shrimp tempura, spicy tuna, cucumber, sweet soy sauce",
+        "price": "$13.5"
+      },
+      {
+        "name": "Caterpillar",
+        "desc": "bbq eel, cucumber, avocado, sweet soy sauce",
+        "price": "$14"
+      },
+      {
+        "name": "Rainbow",
+        "desc": "crab, tuna, salmon, shrimp, escolar, avocado, cucumber",
+        "price": "$14"
+      }
+    ]
+  },
+  {
+    "title": "Vegetarian Rolls",
+    "categoryId": 16,
+    "listItems": [
+      {
+        "name": "Avocado",
+        "desc": "avocado, nori, seasoned rice",
+        "price": "$6"
+      },
+      {
+        "name": "Cucumber",
+        "desc": "cucumber, nori, seasoned rice",
+        "price": "$4"
+      },
+      {
+        "name": "Sweet Potato",
+        "desc": "avocado, cream cheese topped with beet crunch, wasabi mayo, sweet soy sauce",
+        "price": "$9"
+      },
+      {
+        "name": "Shitake",
+        "desc": "soy marinated shitake, nori, seasoned rice",
+        "price": "$6"
+      },
+      {
+        "name": "Veggie Paradise",
+        "desc": "soy paper, avocado, cucumber, shitake, kampyo, asparagus tempura topped with citrus mayo, sweet soy sauce",
+        "price": "$9"
+      },
+      {
+        "name": "Super Vegetarian",
+        "desc": "avocado, cucumber, shitake, asparagus, kampyo topped with wasabi mayo, and chili sauce",
+        "price": "$9"
+      }
+    ]
+  },
+  {
+    "title": "Dessert",
+    "categoryId": 17,
+    "listItems": [
+      { "name": "Green tea ice cream", "desc": "", "price": "$3" },
+      {
+        "name": "Mochi ice cream",
+        "desc": "mango/strawberry/chocolate/red bean",
+        "price": "$3"
+      }
+    ]
+  }
+]
