@@ -5,7 +5,7 @@ import menu from "@/menu-blowfish.json";
 export default function Menu() {
   return (
     <section className="dark:bg-green-900 dark:text-white">
-      <ul className="gap grid gap-20 py-24 md:grid-cols-2 lg:px-8 xl:grid-cols-3">
+      <ul className="grid gap-10 py-24">
         {menu.map((category) => (
           <li key={category.categoryId}>
             <h3
@@ -15,11 +15,11 @@ export default function Menu() {
             >
               {category.title}
             </h3>
-            <ul>
+            <ul className="center grid md:grid-cols-2 lg:px-8 xl:grid-cols-3">
               {category.listItems.map((item) => (
                 <li
                   data-aos={"fade-up"}
-                  className="m-4 my-8 flex justify-between gap-1"
+                  className="m-4 flex justify-between gap-1"
                   key={item.name}
                 >
                   <div>

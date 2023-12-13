@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="top-0 z-10 flex h-10 items-center justify-between overflow-hidden border-b bg-white bg-opacity-50 px-2 backdrop-blur-xl">
+    <header className="sticky top-0 z-10 flex h-10 items-center justify-between overflow-hidden border-b bg-white bg-opacity-50 px-2 backdrop-blur-xl">
       <Link href="/">
         <Image
           data-aos="fade-right"
@@ -17,7 +17,7 @@ export default function Header() {
         <h1 className="pl-14 text-2xl font-semibold">Blowfish</h1>
       </Link>
       <div className="flex gap-2 text-sm">
-        <p className="hidden">Make your reservation:</p>
+        <p className="hidden md:inline-flex">Make your reservation:</p>
         <p className="font-semibold">(415)&nbsp;555&#8209;0132</p>
       </div>
     </header>
