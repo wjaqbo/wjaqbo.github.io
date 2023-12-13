@@ -4,30 +4,36 @@ import Image from "next/image";
 export default function Slider() {
   return (
     <section
-      className="my-2 flex justify-between gap-2 overflow-hidden"
+      className="my-2 flex h-[40vh] justify-between gap-2 overflow-hidden"
       data-aos="fade-in"
     >
-      <Image
-        src="/images/sushi-pic.jpg"
-        alt="sushi"
-        width={500}
-        height={400}
-        loading="lazy"
-      />
-      <Image
-        src="/images/sushi-pic.jpg"
-        alt="sushi"
-        width={500}
-        height={400}
-        loading="lazy"
-      />
-      <Image
-        src="/images/sushi-pic.jpg"
-        alt="sushi"
-        width={500}
-        height={400}
-        loading="lazy"
-      />
+      <div className="relative w-2/6">
+        <Image
+          src="/images/sushi-pic.jpg"
+          alt="sushi"
+          fill
+          objectFit="cover"
+          loading="lazy"
+        />
+      </div>
+      <div className="relative w-2/6">
+        <Image
+          src="/images/sushi-pic.jpg"
+          alt="sushi"
+          fill
+          objectFit="cover"
+          loading="lazy"
+        />
+      </div>
+      <div className="relative w-2/6">
+        <Image
+          src="/images/sushi-pic.jpg"
+          alt="sushi"
+          fill
+          objectFit="cover"
+          loading="lazy"
+        />
+      </div>
     </section>
   );
 }

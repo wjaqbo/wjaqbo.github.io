@@ -1,4 +1,4 @@
-import { Hero, Slider, Menu } from "@/components";
+import { Hero, Slider, Menu, Navigation } from "@/components";
 
 export default function Home() {
   return (
@@ -6,6 +6,7 @@ export default function Home() {
       <Hero />
       <Slider />
       <Menu />
+      <Navigation />
     </main>
   );
 }

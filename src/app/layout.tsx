@@ -17,11 +17,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" className="dark scroll-smooth focus:scroll-auto">
       <body className={`${inter.className} flex min-h-screen flex-col`}>
         <AnimationProvider>
           <Header />
           {children}
+          <footer className="bg-green-700 px-2 py-10 text-white">
+            @digitmonkey
+          </footer>
         </AnimationProvider>
       </body>
     </html>

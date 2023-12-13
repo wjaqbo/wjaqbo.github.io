@@ -5,13 +5,11 @@ import menu from "@/menu-blowfish.json";
 export default function Menu() {
   return (
     <section className="dark:bg-green-900 dark:text-white">
-      <div className="flex items-center justify-center bg-green-900 p-12">
-        <h2 className="text-4xl font-bold text-white">MENU</h2>
-      </div>
-      <ul className="mt-24 grid gap-24 md:grid-cols-2 lg:px-8 xl:grid-cols-3">
+      <ul className="gap grid gap-20 py-24 md:grid-cols-2 lg:px-8 xl:grid-cols-3">
         {menu.map((category) => (
           <li key={category.categoryId}>
             <h3
+              id={category.categoryId.toString()}
               data-aos={"fade-right"}
               className="m-4 text-center text-lg font-semibold uppercase text-green-700 dark:text-white"
             >
