@@ -21,7 +21,7 @@ export default function Navigation() {
   return (
     <section
       className={`${
-        isOpen ? "opacity-100" : "opacity-0"
+        isOpen ? "opacity-100" : "invisible opacity-0"
       } fixed right-0 top-10 z-10 w-full border-b bg-white bg-opacity-50 py-5 font-semibold backdrop-blur-xl transition`}
     >
       {/* <h2 className="text-4xl font-bold text-white">MENU</h2> */}

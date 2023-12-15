@@ -1,9 +1,11 @@
 import React from "react";
 import Image from "next/image";
 
-export default function Hero() {
+export default function Hero({ ...props }): React.ReactElement {
   return (
-    <section className="flex flex-col items-center justify-center bg-green-700 p-20 text-white">
+    <section
+      className={`flex flex-col items-center justify-center bg-green-700 p-20 text-white ${props.className}`}
+    >
       <h2 data-aos={"fade-right"} className="text-4xl font-bold">
         SUSHI BAR
       </h2>

@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Slider() {
   return (
     <section
-      className="my-2 flex h-[40vh] justify-between gap-2 overflow-hidden"
+      className="mb-2 flex h-[40vh] justify-between gap-2 overflow-hidden"
       data-aos="fade-in"
     >
       <div className="relative w-2/6">

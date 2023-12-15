@@ -17,10 +17,7 @@ export default function Header() {
         />
         <h1 className="pl-14 text-2xl font-semibold">Blowfish</h1>
       </Link>
-      <div className="flex gap-2 text-sm">
-        <p className="hidden md:inline-flex">Make your reservation:</p>
-        <p className="font-semibold">(415)&nbsp;555&#8209;0132</p>
-      </div>
+      <div className="ml-auto font-semibold">MENU</div>
       <Hamburger />
     </header>
   );

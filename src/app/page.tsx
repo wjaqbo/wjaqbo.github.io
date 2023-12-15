@@ -5,8 +5,10 @@ export default function Home() {
     <main className="w-full">
       <Slider />
       <Hero />
+      <Slider />
+      <Hero className="bg-lime-500" />
       <Menu />
-      <Hero />
+      <Hero className="bg-emerald-600" />
     </main>
   );
 }
