@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { AnimationProvider } from "@/components";
-import Header from "@/components/Header";
+import { AnimationProvider, Navigation, Header, Footer } from "@/components";
+import NavContextProvider from "@/components/NavContextProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,11 +20,12 @@ export default function RootLayout({
     <html lang="en" className="dark scroll-smooth focus:scroll-auto">
       <body className={`${inter.className} flex min-h-screen flex-col`}>
         <AnimationProvider>
-          <Header />
+          <NavContextProvider>
+            <Header />
+            <Navigation />
+          </NavContextProvider>
           {children}
-          <footer className="bg-green-700 px-2 py-10 text-white">
-            @digitmonkey
-          </footer>
+          <Footer />
         </AnimationProvider>
       </body>
     </html>

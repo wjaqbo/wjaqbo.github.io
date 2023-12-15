@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Hamburger from "./Hamburger";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-10 flex h-10 items-center justify-between overflow-hidden border-b bg-white bg-opacity-50 px-2 backdrop-blur-xl">
+    <header className="sticky top-0 z-20 flex h-10 items-center justify-between overflow-hidden bg-white bg-opacity-50 px-2 backdrop-blur-xl">
       <Link href="/">
         <Image
           data-aos="fade-right"
@@ -20,6 +21,7 @@ export default function Header() {
         <p className="hidden md:inline-flex">Make your reservation:</p>
         <p className="font-semibold">(415)&nbsp;555&#8209;0132</p>
       </div>
+      <Hamburger />
     </header>
   );
 }

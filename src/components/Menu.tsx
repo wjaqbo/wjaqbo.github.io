@@ -15,7 +15,7 @@ export default function Menu() {
             >
               {category.title}
             </h3>
-            <ul className="center grid md:grid-cols-2 lg:px-8 xl:grid-cols-3">
+            <ul className="grid gap-6 md:grid-cols-2 lg:px-8 xl:grid-cols-3">
               {category.listItems.map((item) => (
                 <li
                   data-aos={"fade-up"}
