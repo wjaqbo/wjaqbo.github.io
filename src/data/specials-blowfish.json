@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Spicymono",
+    "desc": "Spicy Tuna, Spicy Salmon, and Spicy Shrimp Roll",
+    "price": "$20"
+  },
+  {
+    "id": 2,
+    "name": "Black Garlic Tonkotsu Ramen",
+    "desc": "The original‏ silky “Tonkotsu” (pork) soup noodle topped with Holland pork chashu, kikurage mushrooms, nitamago, scallions, corn, spinach, roasted seaweed, sesame and black garlic oil.",
+    "price": "$14.5"
+  },
+  {
+    "id": 3,
+    "name": "Classic Ramen",
+    "desc": "The original silky “Tonkotsu” (pork) soup noodle topped with Holland pork chashu, kikurage mushrooms, nitamago, scallions, spinach, corn and sesame oil.",
+    "price": "$14"
+  }
+]

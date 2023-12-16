@@ -1,14 +1,15 @@
-import { Hero, Slider, Menu, Navigation } from "@/components";
+import { Hero, Slider, Menu, Specials } from "@/components";
 
 export default function Home() {
   return (
     <main className="w-full">
       <Slider />
-      <Hero />
+      <Hero className="bg-cyan-600" />
       <Slider />
-      <Hero className="bg-lime-500" />
+      <Specials className="bg-lime-500" />
       <Menu />
       <Hero className="bg-emerald-600" />
+      <Specials className="bg-lime-500" />
     </main>
   );
 }
