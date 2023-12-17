@@ -22,7 +22,7 @@ export default function Navigation() {
     <section
       className={`${
         isOpen ? "translate-y-0" : "-translate-y-[100%]"
-      } fixed right-0 top-10 z-10 w-full border-b bg-white bg-opacity-50 py-5 font-semibold backdrop-blur-xl transition-transform`}
+      } fixed bottom-0 right-0 top-10 z-10 w-full border-b bg-white bg-opacity-50 py-5 font-semibold backdrop-blur-xl transition-transform`}
     >
       {/* <h2 className="text-4xl font-bold text-white">MENU</h2> */}
       <nav className="grid grid-cols-2 gap-2 px-10">{caterogies}</nav>
