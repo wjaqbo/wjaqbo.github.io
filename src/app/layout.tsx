@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en">
       <body className={`${inter.className} flex min-h-screen flex-col`}>
         <AnimationProvider>
           <NavContextProvider>

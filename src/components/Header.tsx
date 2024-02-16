@@ -1,24 +1,26 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Hamburger from "./Hamburger";
+import { motion } from "framer-motion";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-20 flex h-10 items-center justify-between overflow-hidden bg-white bg-opacity-50 px-2 backdrop-blur-xl">
-      <Link href="/">
-        <Image
-          data-aos="fade-right"
-          className="absolute left-[-12px] top-[-7px]"
-          src="/images/logo.png"
-          width={100}
-          height={100}
-          alt="Blowfish"
-        />
-        <h1 className="pl-14 text-2xl font-semibold">Blowfish</h1>
-      </Link>
-      <div className="ml-auto font-semibold">MENU</div>
+    <header className="sticky top-0 z-20 flex h-14 items-center overflow-hidden border-b bg-white bg-opacity-50 backdrop-blur-xl">
       <Hamburger />
+      <Link href="/" className="flex items-center">
+        <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+          <Image
+            // className="absolute"
+            src="/images/logo-small.png"
+            width={50}
+            height={50}
+            alt="Blowfish"
+          />
+        </motion.div>
+        <h1 className="ml-1 text-2xl font-semibold">Blowfish</h1>
+      </Link>
     </header>
   );
 }

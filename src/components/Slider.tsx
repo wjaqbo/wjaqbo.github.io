@@ -1,11 +1,15 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Slider() {
   return (
-    <section
+    <motion.section
       className="mb-2 flex h-[40vh] justify-between gap-2 overflow-hidden"
-      data-aos="fade-in"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
     >
       <div className="relative w-2/6">
         <Image
@@ -34,6 +38,6 @@ export default function Slider() {
           loading="lazy"
         />
       </div>
-    </section>
+    </motion.section>
   );
 }
