@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { AnimationProvider, Navigation, Header, Footer } from "@/components";
+import { AnimationProvider, Header, Footer } from "@/components";
 import NavContextProvider from "@/components/NavContextProvider";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -22,7 +22,6 @@ export default function RootLayout({
         <AnimationProvider>
           <NavContextProvider>
             <Header />
-            <Navigation />
           </NavContextProvider>
           {children}
           <Footer />

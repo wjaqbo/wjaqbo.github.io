@@ -2,14 +2,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Hamburger from "./Hamburger";
 import { motion } from "framer-motion";
+
+import { Navigation } from "@/components";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-20 flex h-14 items-center overflow-hidden border-b bg-white bg-opacity-50 backdrop-blur-xl">
-      <Hamburger />
-      <Link href="/" className="flex items-center">
+    <header className="sticky top-0 z-10 flex h-14 items-center border-b bg-white bg-opacity-80 backdrop-blur-xl">
+      <Navigation />
+      <Link href="/" className="flex items-center pl-10">
         <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
           <Image
             // className="absolute"
