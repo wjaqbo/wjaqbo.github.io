@@ -8,7 +8,7 @@ export default function Hamburger() {
   const { isOpen, setIsOpen } = useContext(NavContext);
   return (
     <button
-      className="fixed left-0 top-2 z-30 h-10 w-10 text-black focus:outline-none"
+      className="fixed left-2 top-2 z-30 h-10 w-10 text-black focus:outline-none"
       onClick={() => setIsOpen(!isOpen)}
     >
       <span className="sr-only">Open main menu</span>
