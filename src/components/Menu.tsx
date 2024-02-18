@@ -5,13 +5,13 @@ import menu from "@/data/menu-blowfish.json";
 export default function Menu() {
   return (
     <section className="pb-24 dark:bg-green-900 dark:text-white">
-      <h2 className="py-16 text-center text-4xl font-bold uppercase">Menu</h2>
-      <ul className="grid gap-14">
+      <h2 className="pt-16 text-center text-4xl font-bold uppercase">Menu</h2>
+      <ul className="grid">
         {menu.map((category) => (
           <li key={category.categoryId}>
             <h3
               id={category.categoryId.toString()}
-              className="m-4 text-center text-lg font-semibold uppercase dark:text-white"
+              className="pl-12 pt-20 text-lg font-semibold uppercase dark:text-white"
             >
               {category.title}
             </h3>

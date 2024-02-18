@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function Slider() {
   return (
     <motion.section
-      className="mb-2 flex h-[40vh] justify-between gap-2 overflow-hidden"
+      className="mb-2 flex h-[300px] justify-between gap-2 overflow-hidden"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
     >
