@@ -4,7 +4,7 @@ import menu from "@/data/menu-blowfish.json";
 
 export default function Menu() {
   return (
-    <section className="pb-24 dark:bg-green-900 dark:text-white">
+    <section className="mx-auto max-w-screen-xl pb-24 dark:bg-green-900 dark:text-white">
       <h2 className="pt-16 text-center text-4xl font-bold uppercase">Menu</h2>
       <ul className="grid">
         {menu.map((category) => (
