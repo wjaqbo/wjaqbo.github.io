@@ -47,7 +47,7 @@ export default function Slider() {
   };
   return (
     <AnimatePresence initial={false}>
-      <section className="relative flex h-[300px] overflow-hidden">
+      <section className="relative flex h-[300px] overflow-hidden bg-black">
         <motion.div
           className="relative h-full w-full"
           variants={variants}
