@@ -15,7 +15,7 @@ export default function Backdrop({
       className="fixed left-0 top-0 z-10 h-screen w-full bg-black bg-opacity-80"
       onClick={onClick}
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
+      animate={{ opacity: 1, transition: { opacity: { duration: 0.02 } } }}
       exit={{ opacity: 0 }}
     >
       {children}

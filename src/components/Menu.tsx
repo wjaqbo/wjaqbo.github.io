@@ -11,7 +11,7 @@ export default function Menu() {
           <li key={category.categoryId}>
             <h3
               id={category.categoryId.toString()}
-              className="pl-4 pt-20 text-lg font-semibold uppercase dark:text-white lg:pl-12"
+              className="border-b pb-2 pl-4 pt-20 text-lg font-semibold uppercase dark:text-white lg:pl-12"
             >
               {category.title}
             </h3>

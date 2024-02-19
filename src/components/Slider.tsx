@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -41,7 +41,7 @@ const variants = {
 
 export default function Slider() {
   const [index, setIndex] = useState(0);
-  const [direction, setDirection] = useState(0);
+  const [direction, setDirection] = useState(1);
 
   const prevStep = () => {
     setDirection(-1);
@@ -59,11 +59,19 @@ export default function Slider() {
     }
     setIndex(index + 1);
   };
+
+  useEffect(() => {
+    const slideInterval = setInterval(() => {
+      nextStep();
+    }, 4000);
+    return () => clearInterval(slideInterval);
+  }, [index]);
+
   return (
     <AnimatePresence initial={false} custom={direction}>
-      <section className="relative flex h-[300px] overflow-hidden bg-black">
+      <section className="relative flex h-[300px] overflow-hidden bg-black lg:h-[640px]">
         <motion.div
-          className="relative h-full w-full"
+          className="w-full"
           variants={variants}
           initial="initial"
           animate="animate"
@@ -74,7 +82,6 @@ export default function Slider() {
           <Image
             src={images[index]}
             alt="sushi"
-            className="left-0 h-full w-full"
             fill
             objectFit="cover"
             loading="lazy"
@@ -83,15 +90,37 @@ export default function Slider() {
 
         <button
           onClick={prevStep}
-          className="absolute left-4 top-1/2 h-10 w-10 -translate-y-2/4 rounded-full bg-white bg-opacity-70"
+          className="absolute left-4 top-1/2 flex h-8 w-8 -translate-y-2/4 items-center justify-center rounded-full bg-white bg-opacity-70"
         >
-          prev
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            className="h-6 w-6"
+          >
+            <path
+              fillRule="evenodd"
+              d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z"
+              clipRule="evenodd"
+            />
+          </svg>
         </button>
         <button
           onClick={nextStep}
-          className="absolute right-4 top-1/2 h-10 w-10 -translate-y-2/4 rounded-full bg-white bg-opacity-70"
+          className="absolute right-4 top-1/2 flex h-8 w-8 -translate-y-2/4 items-center justify-center rounded-full bg-white bg-opacity-70"
         >
-          next
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            className="h-6 w-6"
+          >
+            <path
+              fillRule="evenodd"
+              d="M16.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z"
+              clipRule="evenodd"
+            />
+          </svg>
         </button>
       </section>
     </AnimatePresence>

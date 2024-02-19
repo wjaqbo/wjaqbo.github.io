@@ -25,7 +25,6 @@ export default function Navigation() {
       transition: {
         duration: 0.3,
         type: "spring",
-        ease: "linear",
       },
     },
     exit: {
@@ -54,9 +53,8 @@ export default function Navigation() {
               initial="hidden"
               animate="visible"
               exit="exit"
-              className={`fixed bottom-0 left-0 top-0 h-screen overflow-y-auto border-b bg-white py-14 font-semibold backdrop-blur-xl`}
+              className={`fixed bottom-0 left-0 top-0 h-screen overflow-y-auto border-b bg-white py-14 font-semibold`}
             >
-              {/* <h2 className="text-4xl font-bold text-white">MENU</h2> */}
               <nav className="grid gap-2 px-10">{caterogies}</nav>
             </motion.section>
           </Backdrop>
