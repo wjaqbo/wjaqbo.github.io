@@ -4,15 +4,6 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
-const images = [
-  "/images/sushi-pic-5.jpg",
-  "/images/sushi-pic-6.jpg",
-  "/images/sushi-pic-2.jpg",
-  "/images/sushi-pic-3.jpg",
-  "/images/sushi-pic-4.jpg",
-  "/images/sushi-pic.jpg",
-];
-
 const offset = 300;
 
 const variants = {
@@ -39,7 +30,7 @@ const variants = {
   },
 };
 
-export default function Slider() {
+export default function Slider({ images }: { images: string[] }) {
   const [index, setIndex] = useState(0);
   const [direction, setDirection] = useState(1);
 
